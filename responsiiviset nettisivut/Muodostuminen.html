@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/tyylit.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="#">Logo</a>
+            </div>
+            <nav class="navbar">
+                <button class="dropdown-button">☰</button>
+                <ul class="nav-links">
+                    <li><a href="Etusivu.html">Etusivu</a></li>
+                    <li><a href="Kriteerit.html">Kriteerit</a></li>
+                    <li><a href="Arviointi.html">Arviointi</a></li>
+                    <li><a href="Muodostuminen.html">Tutkinto</a></li>
+                    <li><a href="Osat.html">Osat</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+    <div class="section" id="section1">
+        <h1>Tutkinnon muodostuminen</h1>
+            <p>Tieto- ja viestintätekniikan perustutkinnon laajuus on 180 osaamispistettä. Tutkinto muodostuu ammatillisista tutkinnon osista (145 osaamispistettä) ja yhteisistä tutkinnon osista (35 osaamispistettä).</p>
+            <br>
+            <p>Ammatillisista tutkinnon osista pakollisia on 70—115 osaamispistettä ja valinnaisia 30—75 osaamispistettä. Tieto- ja viestintätekniikan perustutkinto sisältää seuraavat tutkintonimikkeet:</p>
+            <br>
+            <p>- Elektroniikka-asentaja</p>
+            <p>- Hyvinvointiteknologia-asentaja</p>
+            <p>- Tietoverkkoasentaja</p>
+            <p>- IT-tukihenkilö</p>
+            <p>- Ohjelmistokehittäjä</p>
+    </div>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownButton = document.querySelector('.dropdown-button');
+            const navLinks = document.querySelector('.nav-links');
+    
+            dropdownButton.addEventListener('click', function() {
+                navLinks.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>
+<footer>
+    <div class="logo">
+        Serverin nettisivu
+    </div>
+</footer>
